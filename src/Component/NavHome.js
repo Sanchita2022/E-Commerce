@@ -18,6 +18,7 @@ const Navbar = () => {
     <div className='nav'>
         <div className='logo'>
          {/* logo here */}
+         <img src="/images/logo icon.png"/>
             <h3>
                 BIZPUSH
             </h3>
@@ -26,26 +27,26 @@ const Navbar = () => {
         <div className='routes'>
             <ul>
              <li>
-             <Link to="/">Home</Link>
+             <Link style={{textDecoration:"none",color:"#4D4D4D"}} to="/">Home</Link>
              </li>
 
              <li>
-             <Link to="/gallery">Gallery</Link>
+             <Link  style={{textDecoration:"none",color:"#4D4D4D"}}to="/gallery">Gallery</Link>
              </li>
 
              <li>
-             <Link to="/shop">Shop</Link>
+             <Link  style={{textDecoration:"none",color:"#4D4D4D"}}to="/shop">Shop</Link>
              </li>
 
              <li>
-             <Link to="/contact">Contact</Link>
+             <Link   style={{textDecoration:"none",color:"#4D4D4D"}}to="/contact">Contact</Link>
              </li>
 
             </ul>
         </div>
 
         <div className='side-content'>
-            <CiSearch/>
+            <CiSearch />
             <AiOutlineShoppingCart/>
             {/* shopping cart count here  */}
             {/* account person pic here  */}

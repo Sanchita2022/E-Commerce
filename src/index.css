@@ -1,4 +1,22 @@
 *{
-  background: linear-gradient(104.58deg, #FFDCF3 2.1%, #D7FFFF 100.64%);
+  /* background: linear-gradient(104.58deg, #FFDCF3 2.1%, #D7FFFF 100.64%); */
+
   mix-blend-mode: darken;
+  box-sizing: border-box;
+  
+}
+
+body{
+  margin:0px
+}
+.padding{
+  padding: 0px 40px 40px 10px;
+  
+}
+
+@media screen and (min-width:640px) {
+  .padding{
+    padding: 0px 40px 40px 95px;
+
+  }
 }

@@ -1,0 +1,119 @@
+.main-card{
+    margin-top: -100px;
+}
+.card{
+ display: flex;
+ flex-wrap: wrap;
+ gap:20px
+/* grid-template-columns: repeat(7, minmax(0,1fr)); */
+
+}
+
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10%;
+    border: 0.93px solid;
+    border-image: linear-gradient(to right, #A61473, #FFFFFF, #05F2F2    ) 1;
+    border-image-slice: 1;
+    
+}
+.shoe1{
+    width: 200px;
+    height:200px;
+
+}
+.round1{
+    margin-left: 238px;
+    margin-top: -195px; 
+ }
+
+.heart1{
+  height:25px;
+  padding-left: 242px;
+  margin-top: -25px;
+  
+}
+
+.photo1{
+    height:200px;
+    width:270px;
+    border: border-box;
+    border-radius: 10%;
+    background-color: transparent
+}
+.shoe2{
+    margin-top:26.5px;
+    width: 210px;
+    height:175px;
+}
+.round2{
+    margin-left: 238px;
+    margin-top: -195px; 
+ }
+
+.heart2{
+    height:25px;
+    padding-left: 242px;
+    margin-top: -25px;
+    
+  }
+.photo2{
+    height:200px;
+    width:270px;
+    border: border-box;
+    border-radius: 10%;
+    background-color: transparent
+}
+.shoe3{
+    margin-top:45px;
+    width: 210px;
+    height:150px;
+}
+.round3{
+    margin-left: 238px;
+    margin-top: -190px;  
+ }
+.heart3{
+    height:25px;
+    padding-left: 242px;
+    margin-top: -25px;
+    
+  }
+.photo3{
+    height:200px;
+    width:270px;
+    border: border-box;
+    border-radius: 10%;
+    background-color: transparent;
+}
+.shoe4{
+    
+    width: 190px;
+}
+.round4{
+    margin-left: 238px;
+    margin-top: -195px;  
+ }
+.heart4{
+    height:25px;
+    padding-left: 242px;
+    margin-top: -25px;
+    
+  }
+.photo4{
+    height:200px;
+    width:270px;
+    border: border-box;
+    border-radius: 10%;
+    background-color: transparent
+}
+.footer{
+    font-family: gilroy;
+    font-size: xx-large;
+    color: #677DA8;
+    text-align: left;
+}

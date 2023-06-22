@@ -1,13 +1,61 @@
+@font-face {
+    font-family: gilroy;
+    src: url(fonts/Gilroy-Black.woff);
+}
+@font-face {
+    font-family: gilroy-medium;
+    src: url(fonts/Gilroy-Medium.ttf);
+}
+
+
 .nav{
 
-    
+    display: flex;
+    justify-content:space-between;
+    padding-top: 50px;
+    /* padding:  40px 95px 40px 95px; */
+    background: none;
 }
 
 .logo{
+display: flex;
+background: none;
+
+
 }
-.routes{
+
+.logo h3{
+    color: #677DA8;
+    background: none;
+    padding-left:20px;
+    margin-top: 17px;
+    font-size: 30px;
+    font-family: gilroy;
 }
+
+.logo img{
+    width: 35px;
+    background: none;
+    height: 70px
+}
+.routes ul li {
+    display:flex;
+    margin-right: 50px;
+    background: none;
+    font-family: gilroy-medium;
+
+}
+
+.routes ul{
+    /* padding-right:135px ; */
+    padding-top: 10px;
+    display:flex;
+    background: none;
+
+}
+
 
 .side-content{
-
+ padding-right: 180px;
+ padding-top: 26px;
 }

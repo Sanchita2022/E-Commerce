@@ -46,10 +46,20 @@ const Navbar = () => {
         </div>
 
         <div className='side-content'>
-            <CiSearch />
-            <AiOutlineShoppingCart/>
-            {/* shopping cart count here  */}
-            {/* account person pic here  */}
+            <div className='search'>
+            <CiSearch  style={{height:"50px",width:"25px",color:"#454545"}}/>
+
+            </div>
+            <div className='cart'>
+            <AiOutlineShoppingCart  style={{height:"50px",width:"23px",color:"#454545"}}/>
+
+            </div>
+            <div className='count'>
+                <p style={{marginTop:"1px",marginLeft:"4px",color:"white"}}>0</p>
+            </div>
+            <div className='person'>
+                
+            </div>
         </div>
        
     </div>

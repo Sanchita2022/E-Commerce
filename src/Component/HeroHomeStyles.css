@@ -55,31 +55,19 @@
     border-radius: 10px;
     font-family: gilroy-medium ;
     font-size: 15px;
-    background-color:#E8E8E8;
+    background-color:#ffffff;
     border:none;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 }
-.verticle{
-    border-radius: 50%;
-    position:absolute;
-    padding: 18.5px;
-    right: 250px;
-    top: 167px;
-    border: 5px dashed #cbd5e1;
-}
-.horizontal{
-    border-radius: 50%;
-    position:absolute;
-    padding: 18.5px;
-    right:50px;
-    top:350px;
-    border: 5px dashed #cbd5e1;
-}
-.round{
-    position:absolute;
-    right:0;
-    top:0; 
+.arrow{
+    /* height:px; */
+    width: -100px;
+    background: transparent;
+    mix-blend-mode: darken;
+    margin-top: -50px;
+    margin-left: 27px;
+
 }
 
 .whiteshoe-img{
@@ -96,10 +84,14 @@
     text-align: center;
     margin-top:60px;
     right:-65px;
-    border: 0.93px solid;
+    /* border: 0.93px solid;
     border-image: linear-gradient(to right, #A61473, #FFFFFF, #05F2F2    ) 1;
     border-image-slice: 1;
-    border-radius: 10px;
+    border-radius: 10px; */
+    border-radius: 20px 20px 0 0;
+    border: 2px solid transparent;
+background-origin: border-box;
+background-image: linear-gradient(125deg, #A61473, #FFFFFF22,#05F2F2);
 
 }
 .discount h3{
@@ -126,8 +118,8 @@
 }
 .rating{
     position:relative;
-    top:47px;
-    left:370px;
+    top:-23px;
+    left:390px;
    display:flex;
    flex-direction: column;
 

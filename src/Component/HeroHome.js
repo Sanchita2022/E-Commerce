@@ -27,9 +27,8 @@ const HeroHome = () => {
         <div className="button">
           <button style={{width:"10rem"}}>Shop Now</button>
         </div>
-        <div className="arrow">
-        {/* <img className="arrow" src={arrow} alt="arrow" /> */}
-          
+        <div style={{transform:"rotate(12deg)",mixBlendMode:"darken"}}>
+        <img className="arrow" style={{width:"400px"}} src={arrow} alt="arrow" />  
         </div>
         <div className="rating">
           <p className="number">4.3 </p>
@@ -38,7 +37,7 @@ const HeroHome = () => {
           <img className="star3" src={star} alt="star" />
           <img className="star4" src={star} alt="star" />
           <img className="star5" src={star} alt="star" />
-          <p className="para">(11.6k Total Review)</p>
+          <p className="para" >(11.6k Total Review)</p>
         </div>
       
       </div>

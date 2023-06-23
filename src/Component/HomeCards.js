@@ -3,7 +3,8 @@ import shoe2 from "../assets/shoe-2.jpeg";
 import shoe3 from "../assets/shoe-3.jpeg";
 import shoe4 from "../assets/shoe-4.jpeg";
 import round from "../assets/Ellipse 26.png";
-import { HeartIcon } from '@heroicons/react/24/outline'
+import { HeartIcon } from "@heroicons/react/24/outline";
+import star from "../assets/Vector.png";
 import React from "react";
 
 const HomeCards = () => {
@@ -14,100 +15,126 @@ const HomeCards = () => {
       </div>
 
       <div className="card">
-        <div className="items">
+      <div style={{display:"flex",flexDirection:"column"}}>
+      <div className="items">
           <div className="photo1">
             <img className="shoe1" src="/images/whiteshoe.jpeg" alt="shoe1" />
-              
-              <div className="round1">
-                <img style={{height:"25px"}} src={round} alt="round1" />
-              </div>
 
-              <div className="heart1">
-              <HeartIcon style={{width:"18px"}} />
-              </div>
-            
-              </div>
-          <div className="description">
-            <div></div>
-            <p></p>
+            <div className="round1">
+              <img style={{ height: "25px" }} src={round} alt="round1" />
+            </div>
+
+            <div className="heart1">
+              <HeartIcon style={{ width: "18px" }} />
+            </div>
+          </div>
+         
+        </div>
+        <div className="description">
             <div>
-              <h1></h1>
-              <h1></h1>
-              <button></button>
+              <img className="star1" src={star} alt="star" />
+
+            </div>
+            <p> (11.6k Reviews) </p>
+            <div>
+              <h1>$100</h1>
+              <h1> 500 Sold Out</h1>
+            </div>
+            <div>
+              <button> Buy Now</button>
+            </div>
+          </div>
+      </div>
+      
+        <div style={{display:"flex",flexDirection:"column"}}>
+        <div className="items">
+          <div className="photo2">
+            <img className="shoe2" src={shoe2} alt="shoe2" />
+
+            <div className="round2">
+              <img style={{ height: "25px" }} src={round} alt="round1" />
+            </div>
+
+            <div className="heart2">
+              <HeartIcon style={{ width: "18px" }} />
+            </div>
+          </div>
+          
+        </div>
+        <div className="description">
+            <div>
+            <img className="star2" src={star} alt="star" />
+
+            </div>
+            <p> (11.6k Reviews)</p>
+            <div>
+              <h1> $115 </h1>
+              <h1>100 Sold Out</h1>
+            </div>
+            <div>
+              <button> Buy Now</button>
             </div>
           </div>
         </div>
+     
+        <div style={{display:"flex",flexDirection:"column"}}>
         <div className="items">
-        <div className="photo2">
-            <img className="shoe2"src={shoe2} alt="shoe2" />
-           
-              <div className="round2">
-                <img  style={{height:"25px"}}  src={round} alt="round1" />
-              </div>
-
-              <div className="heart2">
-              <HeartIcon  style={{width:"18px"}}/>
-
-              </div>
-            
-              </div>
-          <div className="description">
-            <div></div>
-            <p></p>
-            <div>
-              <h1></h1>
-              <h1></h1>
-              <button></button>
-            </div>
-          </div>
-        </div>
-        <div className="items">
-        <div className="photo3">
+          <div className="photo3">
             <img className="shoe3" src={shoe3} alt="shoe3" />
 
-              <div className="round3">
-                <img  style={{height:"25px"}}  src={round} alt="round3" />
-              </div>
-              <div className="heart3">
-              <HeartIcon  style={{width:"18px"}}/>
-
-              </div>
-             
-              
-              </div>
-          <div className="description">
+            <div className="round3">
+              <img style={{ height: "25px" }} src={round} alt="round3" />
+            </div>
+            <div className="heart3">
+              <HeartIcon style={{ width: "18px" }} />
+            </div>
+          </div>
+         
+        </div>
+        <div className="description">
             <div></div>
-            <p></p>
+            <img className="star1" src={star} alt="star" />
+
+            <p> (11.6k Reviews)</p>
             <div>
-              <h1></h1>
-              <h1></h1>
-              <button></button>
+              <h1>$50</h1>
+              <h1>1500 Sold Out</h1>
+            </div>
+            <div>
+              <button> Buy Now</button>
             </div>
           </div>
         </div>
+       
+        <div style={{display:"flex",flexDirection:"column"}}>
         <div className="items">
-        <div className="photo4">
+          <div className="photo4">
             <img className="shoe4" src={shoe4} alt="shoe4" />
 
-             <div className="round4">
-                <img style={{height:"25px"}} src={round} alt="round4" />
-              </div>
-              <div className="heart4">
-              <HeartIcon style={{width:"18px"}} />
-
-              </div>
-             
-              </div>
-          <div className="description">
-            <div></div>
-            <p></p>
-            <div>
-              <h1></h1>
-              <h1></h1>
-              <button></button>
+            <div className="round4">
+              <img style={{ height: "25px" }} src={round} alt="round4" />
+            </div>
+            <div className="heart4">
+              <HeartIcon style={{ width: "18px" }} />
             </div>
           </div>
+          
         </div>
+        <div className="description">
+            <div>
+            <img className="star1" src={star} alt="star" />
+
+            </div>
+            <p> (11.6k Reviews) </p>
+            <div>
+              <h1>$220</h1>
+              <h1> 210 Sold Out</h1>
+            </div>
+            <div>
+              <button> Buy Now</button>
+            </div>
+          </div>
+          </div>
       </div>
     </div>
   );

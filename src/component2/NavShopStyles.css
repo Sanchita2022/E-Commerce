@@ -1,0 +1,130 @@
+/* @font-face {
+    font-family: gilroy;
+    src: url(fonts/Gilroy-Black.woff);
+}
+@font-face {
+    font-family: gilroy-medium;
+    src: url(fonts/Gilroy-Medium.ttf);
+} */
+
+.drawyer{
+    border-radius: 33px;
+    background-color: white;
+    min-width: 20px;
+    height: 20px;
+    text-align: center;
+    margin: 10px;
+}
+.nav{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.navShop {
+    border-bottom: solid #ddd6 medium;
+    
+}
+.notification::after {
+    position: absolute;
+    content: "";
+    background: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 33px;
+}
+.navShop .nav{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    padding: 10px;
+    background: none;
+}
+
+.navShop .logo h3{
+    color: #576D98;
+    background: none;
+    padding: 0 20px;
+    margin-top: 10px;
+    font-size: 27px;
+    font-family: gilroy-bold;
+    margin: auto;
+}
+
+.logo img{
+    width: 35px;
+    background: none;
+    height: 70px;
+}
+
+
+.navShop .routes {
+    margin: auto;
+}
+
+.navShop .routes ul{
+    /* padding-right:135px ; */
+    display:flex;
+    background: none;
+}
+
+.navShop .routes ul li {
+    display:flex;
+    margin-right: 50px;
+    background: none;
+    font-family: gilroy-bold;
+    font-size: medium;
+    margin-top: auto;
+}
+.navShop a {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+
+.navShop svg {
+    color: lightgray;
+    height:50px;
+    width:25px;
+    stroke-width:1px;
+    padding: 4px;
+}
+
+.sideicons {
+    background: transparent!important;
+    font-family: gilroy-medium;
+    margin: 10px;
+}
+.uicon {
+    padding: 15px!important;
+    margin: auto!important;
+    background-color: transparent!important;
+}
+.sideicons .icons{
+    border-radius: 33px;
+    background-color: white;
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+}
+.sidecontent {
+    margin: auto auto auto 10px;
+}
+.sideicons {
+    margin: auto 10px auto auto;
+}
+.sidecontent, .sideicons  {
+    display:flex;
+    border-radius: 33px;
+    background: white;
+    height: fit-content;
+    padding: 2px 10px;
+}
+.sidecontent input {
+    background: transparent;
+    padding-left: 10px;
+    width: 300px;
+    border: none;
+    font-size: small;
+    outline: none;
+}

@@ -15,16 +15,15 @@ const Navbar = () => {
   return (
 
 
-    <div className='nav'>
-        <div className='logo'>
-         {/* logo here */}
+    <div className='nav-home'>
+        <div className='logo-home'>
          <img src="/images/logo icon.png"/>
             <h3>
                 BIZPUSH
             </h3>
         </div>
 
-        <div className='routes'>
+        <div className='routes-home'>
             <ul>
              <li>
              <Link style={{textDecoration:"none",color:"#4D4D4D"}} to="/">Home</Link>

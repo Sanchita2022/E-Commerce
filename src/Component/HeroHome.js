@@ -25,7 +25,7 @@ const HeroHome = () => {
           turpis et dolor sit morbi odio id.Aliquam ultricies tortor ac
         </p>
         <div className="button">
-          <button style={{width:"10rem"}}>Shop Now</button>
+          <button  className="btn"  style={{width:"10rem"}}>Shop Now</button>
         </div>
         <div style={{transform:"rotate(12deg)",mixBlendMode:"darken"}}>
         <img className="arrow" style={{width:"400px"}} src={arrow} alt="arrow" />  

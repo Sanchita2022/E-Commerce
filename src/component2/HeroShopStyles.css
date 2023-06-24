@@ -1,0 +1,204 @@
+.HeroShop{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    height: fit-content;
+}
+.leftArea {
+    width: 100px;
+    padding: 10px;
+    border-right: solid #ddd8 medium;
+}
+.middleArea {
+    padding: 10px;
+    width:calc(100% - 500px);
+}
+.rightArea{
+    margin-top: -100px;
+    margin-left:-110px;
+    padding: 20px;
+    border-left: solid #dddd medium;
+    width: 400px;
+    font-family: gilroy-medium;
+}
+
+
+
+.container{
+    margin-top: 100px;
+    margin-left:20px;
+    align-items: center
+}
+.compass{
+   background-color: grey;
+   border-radius: 50%;
+   margin-bottom: 15px;
+   padding-right: 8px;
+}
+.star{
+    background-color: grey;
+    border-radius: 50%;
+    margin-bottom: 15px;
+
+
+}
+.messenger{
+    background-color: grey;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    
+
+}
+.graph{
+    background-color: grey;
+    border-radius: 50%;
+   margin-bottom: 15px;
+
+
+}
+.globe{
+    background-color: grey;
+    border-radius: 50%;
+    margin-bottom: 15px;
+
+
+}
+.building{
+    background-color: grey;
+    border-radius: 50%;
+   margin-bottom: 15px;
+}
+.plus{
+    margin-top: 290px;
+    background-color: grey;
+    border-radius: 50%;
+}
+.rounded-circle{
+    border-radius: 50%;
+    height:39px;
+    
+}
+
+.photo{
+    padding-top:15px;
+}
+
+.body{
+    background-color: aquamarine;
+    /* height:500px;
+    width:100% */
+    margin-top: -800px;
+    margin-right:1030px
+}
+.sub-body{
+    background-color: brown;
+}
+.first-box{
+    background-color: blue;
+}
+.left-content{
+    background-color: chocolate;
+    height:30px;
+    width:30px
+
+}
+
+.cards{
+    margin-top: 18px;
+    border: solid #ddd6 medium;
+    border-radius: 33px;
+    font-family: gilroy-bold;
+}
+.cards .top {
+    padding: 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    border-bottom: solid #ddd8 medium;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+    color: #666;
+    font-size: medium;
+}
+.cards .bottom {
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 30px;
+    height: 60px;
+    color: #8c8c8c;
+}
+.cards .top span, 
+.cards .top h2{
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+.cards .top svg {
+    stroke-width: 10px;
+    width: 40%;
+    margin: -3px;
+}
+
+.session button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: medium;
+    background-color: #ede4f9;
+    color: #864cba;
+    margin: -8px 0;
+    font-family: gilroy-bold;
+}
+
+.rate .circle {
+    display: inline-flex;
+    width:10px;
+    height:10px;
+    border-radius: 33px;
+}
+
+.orders .top {
+    border-bottom: none;
+    padding: 40px 20px;
+    height: 60px;
+    color: #8c8c8c;
+}
+
+.orders .bottom {
+    padding-top: 0;
+    height: fit-content;
+}
+
+.orders .omenu {
+    width: fit-content!important;
+    rotate: 90deg;
+    font-size: x-large;
+    margin-top: -5px !important;
+}
+
+.orders ul {
+    margin-top: 0;
+    padding-left: 0;
+}
+.orders li {
+    list-style: none;
+    padding: 20px 0 0 0 ;
+    height: 70px;
+}
+.orders li span {
+    padding: 0 0 0 40px ;
+}
+
+.orders li span:last-child {
+    float:right;
+    width: 80%;
+}
+
+.orders li span:first-child {
+    border: solid lightgray thin;
+    border-radius: 33px;
+    font-family: gilroy-bold;
+    font-size: small;
+    padding: 5px 10px;
+}

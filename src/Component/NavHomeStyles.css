@@ -15,7 +15,9 @@
     padding-top: 50px;
     /* padding:  40px 95px 40px 95px; */
     background: none;
+    margin-left: 5px;
 }
+
 
 .logo-home{
 display: flex;

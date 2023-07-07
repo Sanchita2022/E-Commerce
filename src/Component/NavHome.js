@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./NavHomeStyles.css";
 import {CiSearch} from "react-icons/ci";
 import {AiOutlineShoppingCart} from "react-icons/ai"
-
+import person from "../assets/myself.jpeg"
 
 
 
@@ -57,6 +57,7 @@ const Navbar = () => {
                 <p style={{marginTop:"1px",marginLeft:"4px",color:"white"}}>0</p>
             </div>
             <div className='person'>
+            <img className="person-img" src={person} alt="person" />
                 
             </div>
         </div>

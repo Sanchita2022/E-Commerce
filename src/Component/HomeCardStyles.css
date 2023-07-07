@@ -1,3 +1,16 @@
+@font-face {
+    font-family: gilroy-regular;
+    src: url(fonts/Gilroy-Regular.ttf);
+}
+@font-face {
+    font-family: gilroy;
+    src: url(fonts/Gilroy-Black.woff);
+}
+
+@font-face {
+    font-family: gilroy-medium;
+    src: url(fonts/Gilroy-Medium.ttf);
+}
 .main-card{
     margin-top: -100px;
 }
@@ -11,14 +24,6 @@
 
 
 .items{
-    /* display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-radius: 10%;
-    border: 0.93px solid;
-    border-image: linear-gradient(to right, #A61473, #FFFFFF, #05F2F2    ) 1;
-    border-image-slice: 1; */
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -38,6 +43,7 @@
 .shoe1{
     width: 200px;
     height:200px;
+    margin-left: 22px;
 
 }
 .round1{
@@ -49,6 +55,7 @@
   height:25px;
   padding-left: 242px;
   margin-top: -25px;
+  color: #f7f7f7;
   
 }
 
@@ -59,20 +66,63 @@
     border-radius: 10%;
     background-color: transparent
 }
+.review-star1{
+   margin-left: -40px;
+   margin-top: 15px;
+   
+}
+.reviews{
+    font-family: gilroy-regular;
+}
+.money{
+    margin-top: -17px;
+    display:flex;
+    font-family: gilroy-regular;
+    
+
+}
+.price{
+    font-size: 18px;
+    color: #10151f;
+}
+.sold{
+    margin-left: 16px;
+    font-size: 18px;
+    color: #1a2c50;
+}
+.name{
+    font-size: 8px;
+    font-family: gilroy-regular;
+    color: #607192;
+}
+.btn{
+    margin-left: 20px;
+    margin-top: -7px;
+    border-radius: 17%;
+    background-color: #f7f7f7;
+    border-color: aliceblue;
+    padding: 9px;
+    font-size: 14px;
+    font-family: gilroy-regular;
+}
+.reviews{
+    margin-left: 30px;
+}
 .shoe2{
-    margin-top:26.5px;
+    margin-top:24px;
     width: 210px;
     height:175px;
 }
 .round2{
     margin-left: 238px;
-    margin-top: -195px; 
+    margin-top: -197px; 
  }
 
 .heart2{
-    height:25px;
+    height: 9px;
     padding-left: 242px;
-    margin-top: -25px;
+    margin-top: -24px;
+    color: #f7f7f7;
     
   }
 .photo2{
@@ -83,18 +133,21 @@
     background-color: transparent
 }
 .shoe3{
-    margin-top:45px;
+    margin-top:43px;
+    margin-left: 20px;
     width: 210px;
     height:150px;
+    
 }
 .round3{
     margin-left: 238px;
-    margin-top: -190px;  
+    margin-top: -191px;  
  }
 .heart3{
-    height:25px;
+    height:9px;
     padding-left: 242px;
     margin-top: -25px;
+    color: #f7f7f7;
     
   }
 .photo3{
@@ -105,17 +158,20 @@
     background-color: transparent;
 }
 .shoe4{
-    
     width: 190px;
+    margin-left: 25px;
+    margin-top: 10px
 }
 .round4{
+    
     margin-left: 238px;
-    margin-top: -195px;  
+    margin-top: -197px;  
  }
 .heart4{
-    height:25px;
+    height:9px;
     padding-left: 242px;
     margin-top: -25px;
+    color: #f7f7f7;
     
   }
 .photo4{
@@ -123,7 +179,7 @@
     width:270px;
     border: border-box;
     border-radius: 10%;
-    background-color: transparent
+    background-color: transparent;
 }
 .footer{
     font-family: gilroy;

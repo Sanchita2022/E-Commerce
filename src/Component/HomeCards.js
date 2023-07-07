@@ -30,19 +30,23 @@ const HomeCards = () => {
           </div>
          
         </div>
-        <div className="description">
-            <div>
+        <div className="description" >
+            <div className="review-star1">
               <img className="star1" src={star} alt="star" />
 
             </div>
-            <p> (11.6k Reviews) </p>
-            <div>
-              <h1>$100</h1>
-              <h1> 500 Sold Out</h1>
+            <p className="reviews"> (11.6k Reviews) </p>
+            <div className="name">
+            <h1>Nike Running Shoe</h1>
             </div>
-            <div>
-              <button> Buy Now</button>
+            <div className="money">
+              <h1 className="price">$100</h1>
+              <h1 className="sold"> <strike>500 Sold Out </strike></h1>
+              <div>
+              <button className="btn"> Buy Now</button>
+              </div>
             </div>
+           
           </div>
       </div>
       
@@ -62,18 +66,22 @@ const HomeCards = () => {
           
         </div>
         <div className="description">
-            <div>
-            <img className="star2" src={star} alt="star" />
+            <div className="review-star1">
+              <img className="star1" src={star} alt="star" />
 
             </div>
-            <p> (11.6k Reviews)</p>
-            <div>
-              <h1> $115 </h1>
-              <h1>100 Sold Out</h1>
+            <p className="reviews"> (11.6k Reviews) </p>
+            <div className="name">
+            <h1>Nike Shoe Airmax</h1>
             </div>
-            <div>
-              <button> Buy Now</button>
+            <div className="money">
+              <h1 className="price">$115</h1>
+              <h1 className="sold"> <strike>100 Sold Out </strike></h1>
+              <div>
+              <button className="btn"> Buy Now</button>
+              </div>
             </div>
+           
           </div>
         </div>
      
@@ -92,17 +100,22 @@ const HomeCards = () => {
          
         </div>
         <div className="description">
-            <div></div>
-            <img className="star1" src={star} alt="star" />
+            <div className="review-star1">
+              <img className="star1" src={star} alt="star" />
 
-            <p> (11.6k Reviews)</p>
-            <div>
-              <h1>$50</h1>
-              <h1>1500 Sold Out</h1>
             </div>
-            <div>
-              <button> Buy Now</button>
+            <p className="reviews"> (11.6k Reviews) </p>
+            <div className="name">
+            <h1>Jordan Sneaker</h1>
             </div>
+            <div className="money">
+              <h1 className="price">$50</h1>
+              <h1 className="sold"> <strike>1500 Sold Out </strike></h1>
+              <div>
+              <button className="btn"> Buy Now</button>
+              </div>
+            </div>
+           
           </div>
         </div>
        
@@ -111,8 +124,8 @@ const HomeCards = () => {
           <div className="photo4">
             <img className="shoe4" src={shoe4} alt="shoe4" />
 
-            <div className="round4">
-              <img style={{ height: "25px" }} src={round} alt="round4" />
+            <div className="round4" >
+              <img style={{ height: "25px"  }} src={round} alt="round4" />
             </div>
             <div className="heart4">
               <HeartIcon style={{ width: "18px" }} />
@@ -121,18 +134,22 @@ const HomeCards = () => {
           
         </div>
         <div className="description">
-            <div>
-            <img className="star1" src={star} alt="star" />
+            <div className="review-star1">
+              <img className="star1" src={star} alt="star" />
 
             </div>
-            <p> (11.6k Reviews) </p>
-            <div>
-              <h1>$220</h1>
-              <h1> 210 Sold Out</h1>
+            <p className="reviews"> (11.6k Reviews) </p>
+            <div className="name">
+            <h1>Nike Running Shoe 2</h1>
             </div>
-            <div>
-              <button> Buy Now</button>
+            <div className="money">
+              <h1 className="price">$220</h1>
+              <h1 className="sold"> <strike>210 Sold Out </strike></h1>
+              <div>
+              <button className="btn" style={{marginLeft:"35px"}}> Buy Now</button>
+              </div>
             </div>
+           
           </div>
           </div>
       </div>
